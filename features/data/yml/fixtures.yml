@@ -1,0 +1,23 @@
+user1:
+  firstname: Rashika
+  lastname: Agarwal
+  email: agarwalrashika00@gmail.com
+  gender: Female
+  mobile: 9910293548
+  subjects: Maths
+  hobbies: "Sports, Reading"
+  address: '118/202, B, Kaushalpuri, Kanpur'
+  state: Uttar Pradesh
+  city: Agra
+
+user2:
+  firstname: Ishika
+  lastname: Jain
+  email: jainishika@gmail.com
+  gender: Female
+  mobile: 9910609623
+  subjects: Science
+  hobbies: "Sports"
+  address: '202/5, Saharanpur, Uttrakhand'
+  state: Uttar Pradesh
+  city: Merrut
