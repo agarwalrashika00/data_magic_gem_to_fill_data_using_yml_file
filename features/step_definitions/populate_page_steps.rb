@@ -11,6 +11,8 @@ When("I populate the page with data for {string}") do |user|
 end
 
 Then("submit the form and take screenshot of the output for {string}") do |user|
+    @browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+    sleep 2
     @google_search.submit_form
     sleep 2
     @google_search.save_screenshot(user)
